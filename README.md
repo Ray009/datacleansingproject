@@ -19,6 +19,7 @@ The script reads performs the following steps and data transformation in order t
 3)	Reads the content of the files subject_train.txt and subject_test.txt to get the subject IDs.  The content of these files will be merged with the x_train and x_test data sets respectively in order to include the subject ID in the resulting tidy files.
 #### 4)	Reads the content of the files y_train.txt and y_test.txt to get the activities performed.  The content of these files will be merged with the x_train and x_test data sets respectively in order to include the activity performed by the subjects in the resulting tidy files.
 5)	Reads the data from both x_train.txt and and x_test.txt.  Only the columns corresponding to the measurements on the mean and standard deviation are extracted.  The rest are excluded.
+
 6)	Since the order and number of records in the subject_train, y_train and x_train data sets match, the script adds a sequence number to each data set so that the data sets can be merged using the that sequence number.  It also does the same for the data sets subject_test, y_test  and x_test.
 7)	Merges the subject_train and y_train data sets into x_train by sequence number.
 8)	Merges the subject_test  and y_test into x_test by sequence number.
