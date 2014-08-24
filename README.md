@@ -1,18 +1,19 @@
-##datacleansingproject
+datacleansingproject
 ====================
 
-###Repo for the Data Cleansing Course Project
+Repo for the Data Cleansing Course Project
 
-###The script run_analysis.R reads the train and test data from the files x_train.txt and and x_test.txt respectively and outputs two data files;
+The script run_analysis.R reads the train and test data from the files x_train.txt and and x_test.txt respectively and outputs two data files;
 
-###1)	tidy_all_data.txt – contains the merged, tidy data from both files.  
-###2)	tidy_avg.data.txt – contains the averages each variable for each activity and each subject from the merged data.
+1)	tidy_all_data.txt – contains the merged, tidy data from both files.  
 
-###The second file is the one required for the project.
+2)	tidy_avg.data.txt – contains the averages each variable for each activity and each subject from the merged data.
 
-###The content of both files is described in details in codebook.md.
+The second file is the one required for the project.
 
-###The script reads performs the following steps and data transformation in order to create the output files.  Note that the order of the statements in the script doesn’t necessarily reflect exactly the same order of the steps listed:
+The content of both files is described in details in codebook.md.
+
+The script reads performs the following steps and data transformation in order to create the output files.  Note that the order of the statements in the script doesn’t necessarily reflect exactly the same order of the steps listed:
 
 1)	Reads the content of the file feature.txt to obtain the column names for the data files.  It uses the names to determine which columns to extract from the data files.  Per the project instructions, the script will only extract only the measurements on the mean and standard deviation for each measurement.
 
