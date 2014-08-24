@@ -1,4 +1,4 @@
-tidy_all_data.txt:
+###tidy_all_data.txt:
 
 column				column		column																range of
 name				type		definition												units			values
@@ -75,7 +75,7 @@ subject_id			integer		Unique identifier of the subject who carried out the exper
 activity_label			factor		Activity performed by the subject									N/A			WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
-tidy_avg.data.txt:
+###tidy_avg.data.txt:
 
 column				column		column																range of
 name				type		definition												units			values
